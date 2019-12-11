@@ -2,28 +2,19 @@ let project_list = [
 	{
 		title: 'Ctrim',
 		des:
-			"Store management application. The web application aims to help SME's with stock and finance management",
-		tags: [ 'Django', 'Go', 'Angular2+', 'CSS', 'TypeScript', 'Python'],
+			"Store management application. The web application aims to help SME's with stock and finance management. The application aims to give the user analytics on how their business is doing. Technologies used are Django and Angular.",
+		tags: [ 'Django', 'Angular2+'],
 		links: {
-			github: 'https://github.com/kwanj-k'
+			github: 'https://github.com/kwanj-k/ctrim-client-v2'
 		}
 	},
 	{
-		title: 'Portfolio',
+		title: 'StoreManager',
 		des:
-			"Store management application. The web application aims to help SME's with stock and finance management",
-		tags: [ 'React', 'Javascript'],
+			"Store Manager is a web application that helps store owners manage sales and product inventory records. This is version one that uses data structures.",
+		tags: [ 'Python', 'Postgres', 'Javascript', 'HTML5', 'CSS'],
 		links: {
-			github: 'https://github.com/kwanj-k/about-me'
-		}
-	},
-	{
-		title: 'T-hauz',
-		des:
-			"Store management application. The web application aims to help SME's with stock and finance management",
-		tags: [ 'Django', 'GraphQL', 'Angular2+', 'SCSS', 'TypeScript', 'Python'],
-		links: {
-			github: 'https://github.com/tng-knr'
+			github: 'https://github.com/kwanj-k/storemanager-API'
 		}
 	}
 ];

@@ -23,7 +23,7 @@ export default function ProjectCardList() {
 				align='center'
 				style={{ margin: '1rem', fontSize: '1.6rem', textTransform: 'uppercase' }}
 			>
-				Projects
+				Personal Projects
 			</Typography>
 			<Grid
 				container
