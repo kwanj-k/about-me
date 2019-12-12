@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <h3>Software Engineer</h3>        
             </div>
             <p>
-                Hi, i'm Kenyan based Software Engineer who loves to write software to build great products and help businesses succeed with their goals. 
+                Hi, I'm Kenyan based Software Engineer who loves to write software, building great products and help businesses succeed with their goals. 
                 I started coding in 2017 and havent stopped ever since. I enjoy learning new things and video games at times. <br></br><br></br>
                 <PhoneIphoneIcon/>  +254-703-852-333
             </p>

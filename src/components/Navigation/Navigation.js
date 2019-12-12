@@ -7,6 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
 import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
+import AppsIcon from '@material-ui/icons/Apps';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
@@ -72,7 +73,7 @@ export default function ScrollableTabsButtonForce() {
 				>
 					<Tab label='About Me' icon={<PersonPinIcon />} {...a11yProps(0)} href="#about"/>
 					<Tab label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(1)} href="#experience"/>
-					<Tab label='Projects' icon={<FavoriteIcon />} {...a11yProps(2)} href="#projects"/>
+					<Tab label='Projects' icon={<AppsIcon />} {...a11yProps(2)} href="#projects"/>
 					<Tab label='Skills' icon={<FavoriteIcon />} {...a11yProps(3)} href="#skills" />
 					<Tab label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(4)} href="#contact" />
 				</Tabs>
