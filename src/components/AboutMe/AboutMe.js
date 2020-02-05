@@ -3,6 +3,8 @@ import portfolio from '../../utils/portfolio.jpg';
 import { Typography } from '@material-ui/core';
 import './AboutMe.css';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import MailIcon from '@material-ui/icons/Mail';
+
 
 const AboutMe = () => {
     return (
@@ -25,6 +27,11 @@ const AboutMe = () => {
                 Hi, I'm Kenyan based Software Engineer who loves to write software, building great products and help businesses succeed with their goals. 
                 I started coding in 2017 and havent stopped ever since. I enjoy learning new things and video games at times. <br></br><br></br>
                 <PhoneIphoneIcon/>  +254-703-852-333
+                <MailIcon
+                    style={{
+                        paddingLeft: '2em'
+                    }}
+                /> mwangikelvin23@gmail.com
             </p>
         </React.Fragment>
         )
