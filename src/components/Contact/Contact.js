@@ -83,6 +83,7 @@ export default function ContactForm() {
 								placeholder="Message"
 								multiline
 								variant="outlined"
+								name="message"
 								/>
 							</div>
 							<Button
