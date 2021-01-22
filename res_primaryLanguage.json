@@ -1,0 +1,61 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Kelvin. A highly organised IT professional who has a proven track record of using good engineering practice to produce software for new, innovative and profitable products and solutions. At the heart of my strength is the ability to work on the development of software systems by accurately interpreting user requirements, then creating the required software designs, coding and testing them and finally integrating the software. I enjoy learning new things and video games at times. ",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience",
+        "contact": "Contact"
+      }
+    },
+    "projects": [
+      
+    ],
+    "experience": [
+      {
+        "company": "Adrian Kenya",
+        "title": "Software Developer/ Technical Team Lead",
+        "years": "04.2020 - present",
+        "mainTech": [
+          "Python"
+        ],
+        "description": "Adrian is a System Integrator & Business Partner in the provision of Telecommunication, Power and ICT infrastructural solutions. I currently work as a backend engineer (working with Python)/ DevOps (working with circle ci and oracle cloud).",
+        "technologies": [
+          "Django-Rest",
+          "React-redux",
+          "CircleCI"
+        ]
+      },
+      {
+        "company": "Jambo Pay",
+        "title": "Software Consultant",
+        "years": "10.2019 - 03.2020",
+        "mainTech": [
+          "Python/Javascript"
+        ],
+        "description": "JamboPay is an innovative electronic payments platform that enables you to securely make and receive payments through your phone, bank, over the web and at thousands of pay points across the world. When I joined jambopay, we were trying to come with a solution that would give insight on how the products in the company were doing in a quick glance. We have successfully been able to develop a real-time dashboard which reads data from the Jambopay system.",
+        "technologies": [
+          "Django-Rest",
+          "React-redux",
+          "Gitlab-CI"
+        ]
+      },
+      {
+        "company": "Andela Kenya",
+        "title": "Software Engineer",
+        "years": "12.2018 - 10.2019",
+        "mainTech": [
+          "Python/Javascript"
+        ],
+        "description":"Andela builds distributed engineering teams with Africa’s top software engineers. I took on different projects during my time at Andela. During the first three months at Andela, I worked in a team of six where we tasked with creating a blog application using Django-rest and react-redux. The main purpose of this project was to hound our skills on how to work in a distributed team, how to deliver world-class features and how to handle stakeholders in an Engineering team. I then joined Converge, a meeting room management system that manages the availability and usage of meeting rooms at Andela. Converge is meant to enable the company to get real-time insights needed to refine available space to fit the changing needs of the company. At converge we built using Graphql from the start, the backend team which I was part of uses python. During my time at converge, I worked on optimising analytics queries, assigning resources to rooms in the backend using SQLAlchemy association objects among other bug-fixes that arose during my time with the team.",
+        "technologies": [
+          "Django-Rest",
+          "React-redux",
+          "Flask",
+          "GraphQL"
+        ]
+      }
+    ]
+  }
