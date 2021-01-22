@@ -1,0 +1,58 @@
+{
+    "basic_info": {
+      "name": "Kelvin Mwangi",
+      "titles": [ "Software Engineer", "Devops Engineer"],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/kwanj-k",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/KwanjKay",
+          "class": "fab fa-twitter"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "90"
+        },
+        {
+          "name": "GO",
+          "class": "devicon-go-plain",
+          "level": "40"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "60"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "60"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "85"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "85"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "25"
+        }
+      ]
+    }
+  }
