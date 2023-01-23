@@ -35,8 +35,8 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+      <header id="home" style={{display: 'block' }}>
+        <div className="row aligner">
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
@@ -70,21 +70,6 @@ class Header extends Component {
                     }}
                   ></span>
                 }
-                // checkedIcon={
-                //   <span
-                //     className="iconify"
-                //     data-icon="noto-v1:sun-with-face"
-                //     data-inline="false"
-                //     style={{
-                //       display: "block",
-                //       height: "100%",
-                //       fontSize: 25,
-                //       textAlign: "end",
-                //       marginLeft: "10px",
-                //       color: "#353239",
-                //     }}
-                //   ></span>
-                // }
                 id="icon-switch"
               />
             </div>

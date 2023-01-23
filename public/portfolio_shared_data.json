@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Kelvin Mwangi",
-      "titles": [ "Software Engineer", "Devops Engineer"],
+      "titles": [ "Backend Developer", "FullStack Developer"],
       "social": [
         {
           "name": "github",
@@ -12,6 +12,11 @@
           "name": "twitter",
           "url": "https://twitter.com/KwanjKay",
           "class": "fab fa-twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kwanj-k/",
+          "class": "devicon-linkedin-plain"
         }
       ],
       "image": "myProfile.jpg"
@@ -19,39 +24,39 @@
     "skills": {
       "icons": [
         {
-          "name": "Python",
-          "class": "devicon-python-plain",
+          "name": "Django",
+          "class": "devicon-django-plain",
           "level": "90"
         },
         {
-          "name": "GO",
-          "class": "devicon-go-plain",
-          "level": "40"
+          "name": "Flask",
+          "class": "devicon-flask-original",
+          "level": "50"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
           "level": "60"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "85"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-plain",
+          "level": "85"
+        },
+        {
+          "name": "Node",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
+          "name": "Circle-CI",
+          "class": "devicon-circleci-plain",
           "level": "60"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "85"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "25"
         }
       ]
     }

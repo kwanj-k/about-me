@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import pythonIcon from "@iconify/icons-logos/python";
-import circleciIcon from "@iconify/icons-logos/circleci";
+import goIcon from "@iconify/icons-logos/go";
 import javascriptIcon from "@iconify/icons-logos/javascript"
 
-
 import myProfile from "../images/myProfile.jpeg"
+
 
 class About extends Component {
   render() {
     if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
+      // var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
@@ -18,9 +18,9 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
+          {/*<h1 style={{ color: "black" }}>*/}
+          {/*  <span>{sectionName}</span>*/}
+          {/*</h1>*/}
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
@@ -32,15 +32,15 @@ class About extends Component {
                   />
                   <Icon
                     icon={pythonIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "400%", margin: "9% 1% 0 5%" }}
                   />
                   <Icon
                     icon={javascriptIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "400%", margin: "9% 1% 0 5%"  }}
                   />
                   <Icon
-                    icon={circleciIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={goIcon}
+                    style={{ fontSize: "250%", margin: "9% 1% 0 5%" }}
                   />
                 </span>
               </div>
